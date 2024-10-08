@@ -1,10 +1,5 @@
 <template>
-  <a-carousel
-    autoplay
-    dotPosition="bottom"
-    dots="true"
-    class="w-[40vw] h-[50vw]"
-  >
+  <a-carousel autoplay class="w-[40vw] h-[50vw]">
     <div>
       <h3>
         <img
