@@ -13,6 +13,12 @@ import {
   InboxOutlined,
   FolderOpenOutlined,
   ReadOutlined,
+  QuestionCircleOutlined,
+  BellOutlined,
+  UserOutlined,
+  TableOutlined,
+  MehFilled,
+ NumberOutlined 
 } from "@ant-design/icons-vue";
 const items = ref([
   {
@@ -59,6 +65,36 @@ const items = ref([
     key: "TrademarkCircleOutlined",
     icon: () => h(TrademarkCircleOutlined),
     label: "自动化",
+  },
+  {
+    key: "UserOutlined",
+    icon: () => h(UserOutlined),
+   
+  },
+  {
+    key: "TableOutlined",
+    icon: () => h(TableOutlined),
+   
+  },
+   {
+    key: "BellOutlined",
+    icon: () => h(BellOutlined),
+   
+  },
+   {
+    key: " NumberOutlined",
+    icon: () => h( NumberOutlined),
+   
+  },
+  {
+    key: "QuestionCircleOutlined",
+    icon: () => h(QuestionCircleOutlined),
+   
+  },
+   {
+    key: "MehFilled",
+    icon: () => h(MehFilled),
+   
   },
 ]);
 </script>
